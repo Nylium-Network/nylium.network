@@ -40,7 +40,7 @@ class Item {
         /* forumPost: */ ?string $forumTitle,
         /* book: */ ?string $series, ?string $seriesNumber
     ) {
-        $this->$key = $key; //
+        $this->key = $key; //
         $this->itemType = $itemType; //
 
         if (!empty($title)) $this->title = $title; //

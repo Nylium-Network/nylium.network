@@ -34,7 +34,8 @@
         <p>Coming soon: sorting and searching! For now, you can use <code>Ctrl+F</code> or your browser's &ldquo;find&rdquo; feature to search for keywords.</p>
         <p>Also check out our <a href="https://nyliumnetwork.tumblr.com/">tumblr blog</a>!</p>
         <div class="works-list">
-        <?php 
+        <?php
+            error_reporting(E_ALL & ~E_NOTICE & ~E_WARNING);
             require "items_array.php";
             echo new Items_array(json_decode(file_get_contents("library.json"), true));
         ?>
