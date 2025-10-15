@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Minecraft';
+  font-style: normal;
+  font-weight: bold;
+  src: url(otf_Minecraft/MinecraftBold.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Minecraft';
+  font-style: italic;
+  font-weight: bold;
+  src: url(otf_Minecraft/MinecraftBoldItalic.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Minecraft';
+  font-style: normal;
+  font-weight: normal;
+  src: url(otf_Minecraft/MinecraftRegular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Minecraft';
+  font-style: italic;
+  font-weight: normal;
+  src: url(otf_Minecraft/MinecraftItalic.otf) format('truetype');
+}
