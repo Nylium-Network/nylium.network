@@ -10,6 +10,8 @@ body {
 }
 header, nav, main, footer {
     padding: 1em;
+    margin-bottom: 2em;
+    box-shadow: .25em .25em .25em .25em rgb(0 0 0 / 25%);
 }
 header {
     background-color: MediumSeaGreen;
